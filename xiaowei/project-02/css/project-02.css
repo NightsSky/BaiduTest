@@ -1,3 +1,69 @@
-.header{
-	background-color: #ccc;
+body {
+	margin: 0;
+	padding: 0;
+	background-color: #cccccc;
 }
+table {
+	width: 100%;
+	border: 1px solid grey;
+	border-collapse: collapse;//合并边框
+}
+th {
+	background-color: black;
+	color: white;
+	text-align: left;
+}
+footer {
+	background-color: black;
+	text-align: center;
+	color: white;
+	padding: 20px;
+}
+.header{
+	height: auto;
+	padding: 10px;
+	background-color: #18193c;
+}
+.header li {
+	display: inline;
+
+}
+.header li a  {
+	margin-left: 20px;
+	color: white;
+	text-decoration: none;
+}
+.header li a:hover {
+	color: red;
+}
+.header ul {
+	float: right;
+	padding-top: 12px;
+}
+
+.content{
+	margin: 20px;
+	padding: 20px;
+	box-shadow:2px 2px 2px gray;
+	background-color: white;
+}
+
+.tr_back {
+	background-color: grey;
+}
+.title2 {
+	color: grey;
+	font-size: 20px;
+}
+.title3 {
+	color: grey;
+}
+.pic div {
+	width: 240px;
+	padding: 10px;
+	margin-top: 10px;
+	margin-left: 10px;
+	border: 1px solid grey;
+	text-align: center;
+}
+
