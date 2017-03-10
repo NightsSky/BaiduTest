@@ -1,0 +1,44 @@
+body {
+    padding: 20px;
+}
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+.bg {
+    background-color: #EEE;
+    border: 1px solid #999;
+    padding: 20px;
+    position: relative;
+}
+.bg_left {
+    width:200px ;
+    padding: 20px;
+    background-color: white;
+    border: 1px solid #999;
+}
+.bg_left div, .bg_right div{
+    width: 80px;
+    height: 80px;
+    padding: 20px;
+
+    border: 1px solid #999;
+    background-color: #CCCCCC;
+}
+.bg_right {
+    position: absolute;
+    top:20px;
+    right: 20px;
+    border: 1px solid #999;
+    width: 120px;
+    background-color: white;
+    padding: 20px;
+
+}
+.bg_right div {
+    margin-bottom: 20px;
+}
+.bg_right div:last-child {
+    margin-bottom: 0;
+}
