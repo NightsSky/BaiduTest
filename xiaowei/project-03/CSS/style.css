@@ -1,44 +1,39 @@
-body {
-    padding: 20px;
-}
-* {
-    -webkit-box-sizing: border-box;
-    -moz-box-sizing: border-box;
-    box-sizing: border-box;
+
+img{
+    width: 80px;
+    height: 80px;
+    border: 1px solid #999;
 }
 .bg {
     background-color: #EEE;
     border: 1px solid #999;
-    padding: 20px;
-    position: relative;
+    padding:20px;
+}
+.bg_left,.bg_right {
+    padding:20px;
+    background-color: #FFF;
+    border: 1px solid #999;
 }
 .bg_left {
-    width:200px ;
-    padding: 20px;
-    background-color: white;
-    border: 1px solid #999;
-}
-.bg_left div, .bg_right div{
-    width: 80px;
-    height: 80px;
-    padding: 20px;
-
-    border: 1px solid #999;
-    background-color: #CCCCCC;
+    float: left;
 }
 .bg_right {
-    position: absolute;
-    top:20px;
-    right: 20px;
-    border: 1px solid #999;
-    width: 120px;
-    background-color: white;
-    padding: 20px;
+    float: right;
+}
+.bg_center {
+    padding:20px;
+    background-color: #fff;
+    margin: 0 160px 0 240px;
+    border:1px solid #999;
+    line-height: 25px;
+}
+.bg_left p{
+    display: inline-block;
+    vertical-align: top;
+    width: 70px;
+    padding-left: 10px;
+}
 
-}
-.bg_right div {
-    margin-bottom: 20px;
-}
-.bg_right div:last-child {
-    margin-bottom: 0;
+.clear {
+    clear: both;
 }

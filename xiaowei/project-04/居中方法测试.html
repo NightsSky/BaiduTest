@@ -1,0 +1,69 @@
+<html >
+<head>
+    <meta charset="utf-8" />
+    <title>Div Middle</title>
+    <style type="text/css">
+        html,body,div{
+            margin:0;
+            padding:0;
+            height:100%;
+            position:relative;
+        }
+        .wrap{
+            width:400px;
+            height:300px;
+            margin:10px;
+            border:1px solid #000;
+        }
+        .left-right-middle1{
+            width:200px;
+            background-color:#69F;
+            margin:0 auto;
+        }
+        .left-right-middle2{
+            width:200px;
+            background-color:#69F;
+            left:50%;
+            margin-left:-100px;
+        }
+        .top-bottom-middle{
+            height:200px;
+            background-color:#69F;
+            top:50%;
+            margin-top:-100px;
+        }
+        .all-middle1{
+            width:200px;
+            height:200px;
+            background-color:#69F;
+            top:50%;
+            margin:-100px auto 0;
+        }
+        .all-middle2{
+            width:200px;
+            height:200px;
+            background-color:#69F;
+            top:50%;
+            left:50%;
+            margin:-100px 0 0 -100px;
+        }
+    </style>
+</head>
+<body>
+<div class="wrap">
+    <div class="left-right-middle1">左右居中方法1</div>
+</div>
+<div class="wrap">
+    <div class="left-right-middle2">左右居中方法2</div>
+</div>
+<div class="wrap">
+    <div class="top-bottom-middle">上下居中</div>
+</div>
+<div class="wrap">
+    <div class="all-middle1">上下左右居中方法1</div>
+</div>
+<div class="wrap">
+    <div class="all-middle2">上下左右居中方法2</div>
+</div>
+</body>
+</html>
