@@ -1,29 +1,121 @@
-html,body,div {
-    position: relative;
+body {
+	margin: 0;
+	padding: 0;
+	background-color: #cccccc;
+}
+table {
+	width: 100%;
+	border: 1px solid grey;
+	border-collapse: collapse;//合并边框
+}
+th {
+	background-color: black;
+	color: white;
+	text-align: left;
+}
+footer {
+	background-color: black;
+	text-align: center;
+	color: white;
+	padding: 20px;
+}
+.header{
+	height: auto;
+	padding: 10px;
+	background-color: #18193c;
+}
+.header li {
+	display: inline;
+
+}
+.header li a  {
+	margin-left: 20px;
+	color: white;
+	text-decoration: none;
+}
+.header li a:hover {
+	color: red;
+}
+.header ul {
+	float: right;
+	padding-top: 12px;
 }
 
-.bg {
-    background-color: #CCC;
-    width: 400px;
-    height: 200px;
+.content{
+	margin: 20px;
+	padding: 20px;
+	box-shadow:2px 2px 2px gray;
+	background-color: white;
+}
 
-    margin:10% auto;
+.tr_back {
+	background-color: grey;
 }
-.left_top {
-    background-color: #FC0;
-    width: 50px;
-    height: 50px;
-    position: absolute;
-    top: 0;
-    left: 0;
-    border-radius:0 0 50px 0;
+.title2 {
+	color: grey;
+	font-size: 20px;
 }
-.right_bottom {
-    position: absolute;
-    background-color: #FC0;
-    width: 50px;
-    height: 50px;
-    right: 0;
-    bottom: 0;
-    border-radius: 50px 0 0 0;
+.title3 {
+	color: grey;
 }
+.pic div div{
+	padding: 0 5px 0 5px;
+	margin: 5px;
+	border: 1px solid grey;
+	text-align: center;
+	float: left;
+}
+.pic p	{
+	margin: 5px auto;
+}
+
+.pic img {
+	width: 100px;
+	height: 80px;
+	margin: 0;
+}
+.pic_content {
+	overflow: auto;
+}
+.nav_title {
+	border-left: 4px solid #cccccc;
+	padding-left: 10px;
+}
+.main {
+	position: relative;
+}
+.left_content {
+	margin-right: 410px;
+}
+.right_content {
+	position: absolute;
+	right: 0;
+	top: 0;
+	width: 350px;
+	margin: 0 20px 0 0;
+}
+.right_content div {
+	margin:5px 0;
+	overflow: hidden;
+}
+.right_content div label {
+	width: 35%;
+	float: left;
+	padding-right: 10px;
+	text-align: right;
+}
+.right_content form div p {
+	margin-left: 34%;
+	color: #cccccc;
+
+}
+button {
+	width: 100%;
+	height: 40px;
+	padding-left: 20px;
+	padding-right: 20px;
+	border-radius: 8px;
+	color: white;
+	background-color: mediumblue
+}
+
