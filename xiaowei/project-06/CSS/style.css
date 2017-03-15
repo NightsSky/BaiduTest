@@ -49,7 +49,7 @@ body{
 .main_1 {
     margin: 20px auto 0px;
     width: 892px;
-    display: block;
+    overflow: hidden;
 }
 .main_1_left{
     width: 641px;
@@ -154,6 +154,7 @@ body{
     width: 641px;
     margin-top: 20px;
     margin-left: 44px;
+    overflow: hidden;
 }
 .main_2_1,
 .main_2_2,
@@ -165,7 +166,6 @@ body{
     color: #767777;
     font-family: "Adobe 宋体 Std L";
     line-height: 16px;
-
 }
 .main_2_3 {
     margin-right: 0;
@@ -184,4 +184,65 @@ body{
     font-size: 16px;
     color: #cc7680;
     text-decoration: underline;
+}
+/*第三部分*/
+.main_3 {
+    overflow: hidden;
+    margin-top: 20px;
+}
+.main_3_left {
+    width: 405px;
+    float: left;
+    margin-left: 44px;
+}
+.font_1 {
+    font-size: 72px;
+    color: #f5e372;
+    font-style: italic;
+    font-family: 黑体;
+    font-weight: bold;
+}
+.font_2 {
+
+    font-size: 42px;
+    color: #11456b;
+    margin-left: 20px;
+    font-family: 黑体;
+    font-weight: bold;
+    line-height: 16px;
+}
+.font_3 {
+    font-size: 33px;
+    color: #11456b;
+    font-family: 黑体;
+    font-weight: bold;
+}
+.divider {
+    width: 415px;
+    height: 2px;
+    margin-top: 5px;
+    background-color: #11456b;
+}
+.main_1_right_bottom {
+    margin-top: 20px;
+}
+.font_4 {
+    font-size: 70px;
+    color: #f5e327;
+    margin-right: 10px;
+    font-family: 微软雅黑;
+}
+.main_3_left img {
+    width: 120px;
+    height: 300px;
+    float: right;
+    margin: 20px 0 20px 20px;
+}
+.main_3_right {
+    float: right;
+    margin-right: 44px;
+}
+.main_3_right img {
+    width: 458px;
+    height: 275px;
 }
