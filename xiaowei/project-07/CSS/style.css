@@ -1,0 +1,22 @@
+body {
+    margin: 0 auto;
+    width: 1280px;
+    height: 4554px;
+    border: 1px solid #ccc;
+}
+
+/*header部分*/
+header {
+    width: 1280px;
+    height: 57px;
+    position: relative;
+}
+header .logo {
+    margin: 5px 50px;
+    background-color: #ccc;
+}
+ul {
+    list-style: none;
+    position: absolute;
+    right: 0;
+}
