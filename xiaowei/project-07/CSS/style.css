@@ -1,10 +1,16 @@
+* {
+    margin: 0;
+    padding: 0;
+}
 body {
     margin: 0 auto;
     width: 1280px;
     height: 4554px;
     border: 1px solid #ccc;
 }
-
+a {
+    text-decoration: none;
+}
 /*header部分*/
 header {
     width: 1280px;
@@ -12,11 +18,93 @@ header {
     position: relative;
 }
 header .logo {
-    margin: 5px 50px;
-    background-color: #ccc;
+    width: 105px;
+    background: url(../img/logo.png) no-repeat left;
+    text-align: right;
+    font-size: 20px;
+    line-height: 57px;
+    margin-left: 50px;
 }
-ul {
+
+
+header ul {
     list-style: none;
     position: absolute;
-    right: 0;
+    right: 0px;
+    top:0;
 }
+header ul li {
+    padding: 4px 10px 0;
+    line-height: 49px;
+    float: left;
+
+}
+header .on {
+    border-bottom: 4px solid red;
+}
+/*main*/
+/*content 1*/
+.content_1 {
+    height: 854px;
+    position: relative;
+    background-color: #cccccc;
+}
+.content_1 .content_1_bg {
+    width: 100%;
+    position: absolute;
+    top:0;
+    left: 0;
+}
+.introduce {
+    position: absolute;
+    z-index: 1000;
+    top: 30%;
+    left: 100px;
+    color: white;
+    font-family: 微软雅黑;
+}
+.introduce .font_1 {
+    font-size: 60px;
+}
+.introduce .font_2 {
+    font-size: 21px;
+    margin-top: 10px;
+    margin-bottom: 50px;
+}
+.introduce a {
+    font-size: 30px;
+    padding: 15px 100px;
+    background-color: #ff6666;
+}
+.introduce a:link ,.introduce a:visited {
+    color: white;
+}
+.introduce a:hover ,.introduce a:active {
+    color: black;
+}
+.content_1 .menu {
+    position: absolute;
+    bottom: -96px;
+    height: 251px;
+    width: 100%;
+    left: 11px;
+    background-color: white;
+    overflow: hidden;
+}
+.menu div {
+    padding-top: 38px;
+    text-align: center;
+    width: 24.5%;
+    float: left;
+}
+.menu p {
+    margin-top: 45px;
+
+}
+.menu .divider {
+    float: left;
+    width: 1px;
+    height: 50px;
+    background-color:#424242;
+}
+
