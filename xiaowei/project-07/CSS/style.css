@@ -45,12 +45,13 @@ header .on {
 /*main*/
 /*content 1*/
 .content_1 {
-    height: 854px;
+    height: 690px;
     position: relative;
     background-color: #cccccc;
 }
 .content_1 .content_1_bg {
     width: 100%;
+    height: 690px;
     position: absolute;
     top:0;
     left: 0;
@@ -82,29 +83,54 @@ header .on {
 .introduce a:hover ,.introduce a:active {
     color: black;
 }
-.content_1 .menu {
-    position: absolute;
-    bottom: -96px;
+ .content_2 {
     height: 251px;
     width: 100%;
-    left: 11px;
     background-color: white;
-    overflow: hidden;
+     overflow: hidden;
 }
-.menu div {
+.content_2 div {
     padding-top: 38px;
     text-align: center;
     width: 24.5%;
     float: left;
 }
-.menu p {
+.content_2 p {
     margin-top: 45px;
 
 }
-.menu .divider {
+.content_2 .divider {
     float: left;
-    width: 1px;
+    width: 2px;
     height: 50px;
+    margin-top: 8%;
     background-color:#424242;
 }
+/*content 3*/
+.content_3 {
+    height: 390px;
+    background-color: #cccccc;
+    text-align: center;
+}
+.content_3 img {
+    width: 91px;
+    height: 92px;
+    margin-top: 90px;
+}
+.content_3 p {
+    font-size: 54px;
+    font-family: "Microsoft JhengHei";
+    margin-top: 20px;
+    color: #323333;
+    font-weight: bold;
 
+}
+/*content 4*/
+.content_4 {
+    height: 340px;
+    background: url("../img/4-1.png");
+    text-align: center;
+}
+.content_4 select {
+    width: 100px;
+}
