@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>任务四：基础JavaScript练习（一）</title>
+    <style type="text/css">
+        #content {
+            width: 1000px;
+            height: 200px;
+            margin: 10px auto;
+        }
+        #control {
+            margin: 10px;
+
+        }
+        input {
+            border-radius: 5px;
+        }
+        #num_box {
+            background-color: aqua;
+            height: 200px;
+            overflow: auto;
+        }
+        .num {
+            width: 100px;
+            height: 100px;
+            background-color: darkred;
+            float: left;
+            margin: 10px;
+        }
+    </style>
+    <script type="text/javascript">
+        window.onload = function () {
+            var numContent = document.getElementById("num_box");
+            var controls = document.getElementById("control").getElementsByTagName("input");
+
+            controls[1].onclick = function () {
+                insert();
+
+            };
+            function insert() {
+                var divNum = document.createElement("div");
+                divNum.className = "num";
+                numContent.appendChild(divNum);
+            }
+        };
+
+    </script>
+</head>
+<body>
+<div id="content">
+    <div id="control">
+        <input type="text" >
+        <input type="button" value="左侧入">
+        <input type="button" value="右侧入">
+        <input type="button" value="左侧出">
+        <input type="button" value="右侧出">
+
+    </div>
+    <div id="num_box">
+
+    </div>
+</div>
+
+</body>
+</html>
