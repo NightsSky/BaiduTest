@@ -27,21 +27,29 @@
             background-color: darkred;
             float: left;
             margin: 10px;
+            color: white;
+            font-size: 18px;
+            text-align: center;
+            line-height: 100px;
+            overflow: hidden;
         }
     </style>
     <script type="text/javascript">
         window.onload = function () {
             var numContent = document.getElementById("num_box");
             var controls = document.getElementById("control").getElementsByTagName("input");
-
             controls[1].onclick = function () {
                 insert();
-
             };
-            function insert() {
+
+
+            function insert( ) {
+                var num = controls[0].value;
                 var divNum = document.createElement("div");
                 divNum.className = "num";
+                divNum.innerText = num;
                 numContent.appendChild(divNum);
+
             }
         };
 
